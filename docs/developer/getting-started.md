@@ -59,6 +59,7 @@ Follow [Building Dashboard for Production](#building-dashboard-for-production) s
 > Due to the deployment complexities of i18n and the need to minimize rebuild time, the development server only supports localizing a single locale at a time. Setting the "localize" option to true will cause an error when using ng serve if more than one locale is defined. Setting the option to a specific locale, such as "localize": ["fr"], can work if you want to develop against a specific locale (such as fr).
 
 ## Building Dashboard for Production
+_Note: As master branch is in development stage makefile is not recommended for production. Hence, some commands may not work._
 
 To build dashboard for production, you still need to install `bc`.
 
